@@ -3,5 +3,6 @@ uvicorn
 numpy
 pandas
 scikit-learn
-tensorflow==2.5.0
+tensorflow==2.14.0
+
 
