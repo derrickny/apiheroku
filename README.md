@@ -1,8 +1,8 @@
-Diabetes Prediction Web API
+### Diabetes Prediction Web API
 
 This project implements a web API for predicting diabetes risk based on a trained machine learning model. The model, a neural network, has been trained on a dataset containing information such as pregnancies, glucose levels, blood pressure, and more.
 
-Features:
+### Features:
 
 FastAPI Backend: Utilizes FastAPI, a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
 Scikit-Learn Model: The project incorporates a trained Scikit-Learn model for accurate diabetes predictions.
@@ -13,15 +13,15 @@ How to Use:
 
 Send a POST request to the /diabetes_prediction endpoint with input parameters in the request body.
 Receive predictions indicating whether a person is diabetic or not.
-Technologies Used:
 
+### Technologies Used:
 FastAPI
 Scikit-Learn
 Python
 Pandas
 Numpy
-Usage:
 
+### Usage:
 Clone the repository:
 bash
 Copy code
