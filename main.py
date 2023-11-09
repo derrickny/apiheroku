@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pickle
 import json
-
+import os
 
 app = FastAPI()
 
@@ -29,7 +29,8 @@ class model_input(BaseModel):
     
 
 # loading the saved model
-diabetes_model = pickle.load(open('/Users/nyagaderrick/Developer/apiheroku/diabetes model.sav','rb'))
+model_path = os.path.join(os.path.dirname(__file__), 'diabetes model.sav')
+diabetes_model = pickle.load(open(model_path, 'rb'))
 
 
 @app.post('/diabetes_prediction')
