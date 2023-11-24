@@ -53,7 +53,7 @@ def diabetes_pred(input_parameters : model_input):
     prediction = diabetes_model.predict([input_list])
     
     if prediction[0] == 0:
-        return 'The person is not Diabetic'
+        return 'The person is not at risk for T2D'
     
     else:
-        return 'The person is Diabetic'
+        return 'The person is at risk for T2D'
