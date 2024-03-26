@@ -39,3 +39,10 @@ Visit http://127.0.0.1:8000/docs in your browser.
 
 Make predictions:
 Use your preferred API testing tool or library to send POST requests to http://127.0.0.1:8000/diabetes_prediction with input parameters
+* Pregnancies : int
+* Glucose : int
+* BloodPressure : int
+* SkinThickness : int
+* Insulin : int
+* BMI : float
+* Age : int
